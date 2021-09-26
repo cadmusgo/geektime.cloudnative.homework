@@ -27,18 +27,16 @@
      - [golang http.ResponseWriter用法及代碼示例 - 純淨天空](https://vimsky.com/zh-tw/examples/usage/golang_net_http_ResponseWriter.html)
 
 
-## 擴展需求
-1. 如何透過 goroutine 發動 reqeust
-2. 如何透過 goroutine 調用 shell command
-
-
-
 ## 參考網站
-
 - Go by Example
   https://gobyexample.com/
 - http package - net/http - pkg.go.dev
   https://pkg.go.dev/net/http
 - web 工作方式 - 使用 Golang 打造 Web 應用程式
   https://willh.gitbook.io/build-web-application-with-golang-zhtw/03.0/03.1
+
+
+## 擴展需求
+1. 如何透過 goroutine 發動 reqeust
+2. 如何透過 goroutine 調用 shell command
 
