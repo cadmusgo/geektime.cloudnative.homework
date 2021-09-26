@@ -12,20 +12,33 @@
 ## survy
 
 1. 要求一
-   - [ ] 如何讀取 request header
-   - [ ] 如何寫入 response header
+   - [x] 如何讀取 request header
+   - [x] 如何寫入 response header
 2. 要求二
-   
-   - [ ] 如何讀取環境變量
+   - [x] 如何讀取環境變量
+     - [Go by Example: Environment Variables](https://gobyexample.com/environment-variables)
 3. 要求三
-   - [ ] 如何讀取 client ip
+   - [x] 如何讀取 client ip
    - [ ] 如何 log 訪問日誌
 4. 要求四
-   
-   - [ ] 如何回應 http 200
-   
-     
+   - [x] 如何回應 http 200
+     - [http package - net/http - pkg.go.dev](https://pkg.go.dev/net/http#StatusOK)
+     - [Go HTTP Header 的那些坑 | Golang](https://tachingchen.com/tw/blog/pitfall-of-golang-header-operation/)
+     - [golang http.ResponseWriter用法及代碼示例 - 純淨天空](https://vimsky.com/zh-tw/examples/usage/golang_net_http_ResponseWriter.html)
+
 
 ## 擴展需求
 1. 如何透過 goroutine 發動 reqeust
 2. 如何透過 goroutine 調用 shell command
+
+
+
+## 參考網站
+
+- Go by Example
+  https://gobyexample.com/
+- http package - net/http - pkg.go.dev
+  https://pkg.go.dev/net/http
+- web 工作方式 - 使用 Golang 打造 Web 應用程式
+  https://willh.gitbook.io/build-web-application-with-golang-zhtw/03.0/03.1
+
