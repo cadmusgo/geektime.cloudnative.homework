@@ -12,8 +12,8 @@
 提交截止时间：10 月 17 日 23:59
 
 ## 作業說明
-build.sh : container 打包
-start.sh : 啟動 container  
+- build.sh : container 打包
+- start.sh : 啟動 container  
 
 ## survy
 1. 申請 docker hub 帳號
