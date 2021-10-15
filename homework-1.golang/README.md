@@ -20,6 +20,10 @@
 3. 要求三
    - [x] 如何讀取 client ip
    - [ ] 如何 log 訪問日誌
+			- [How to Collect, Standardize, and Centralize Golang Logs | Datadog](https://www.datadoghq.com/blog/go-logging/)
+      - [An example of how to use golang/glog.](https://gist.github.com/heatxsink/7221ebe499b0767d4784)
+
+
 4. 要求四
    - [x] 如何回應 http 200
      - [http package - net/http - pkg.go.dev](https://pkg.go.dev/net/http#StatusOK)
@@ -28,6 +32,8 @@
 
 
 ## 參考網站
+- geektutu/7days-golang: 7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc) 7天用Go动手写/从零实现系列
+  https://github.com/geektutu/7days-golang
 - Go by Example
   https://gobyexample.com/
 - http package - net/http - pkg.go.dev
